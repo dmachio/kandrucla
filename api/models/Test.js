@@ -1,5 +1,5 @@
 /**
- * User
+ * Test
  *
  * @module      :: Model
  * @description :: A short summary of how this model works and what it represents.
@@ -8,7 +8,7 @@
 
 module.exports = {
   adapter: 'mysql',
-  tableName: 'user',
+  tableName: 'test',
   migrate: 'safe',
   schema: true,  //this only saves the available atributes and discards the rest that are not available
   attributes: {
